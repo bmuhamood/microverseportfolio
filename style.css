@@ -33,44 +33,45 @@
     object-fit: cover;
 }
 
-/* .project-title {
+/* .project-tile {
     font-size: 2rem;
     padding: 2rem 0.5rem;
 } */
 
-.project-title:hover{
+.project-tile:hover {
     text-decoration: none;
 }
 
-.code{
+.code {
     opacity: 0;
     color: orangered;
     font-weight: bolder;
 }
 
-.project:hover .code{
+.project:hover .code {
     transition-duration: 1s;
     opacity: 1;
 }
 
-#social-icons{
+#social-icons {
     font-size: 3rem;
 }
 
-.sicon:hover{
+.sicon:hover {
     transform: translateY(30px);
     transition: 1s;
     cursor: pointer;
 }
+
 .fa {
     padding: 20px;
     font-size: 30px;
     /* width: 50px; */
     text-align: center;
     text-decoration: none;
-  }
+}
 
-.card-footer{
+.card-footer {
     position: absolute;
     bottom: 0;
 }
@@ -82,11 +83,41 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
 
-  .custom-bg{
+.custom-bg {
     background: #be3144;
-  }
-  .custom-color{
+}
+
+.custom-color {
     color: #be3144;
+}
+
+a:hover {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+#welcome-section{
+    height: 100vh;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100%; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
   }
