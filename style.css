@@ -11,8 +11,8 @@
 
 .project {
     /* background: blueviolet; */
-    position: relative;
-    padding-top: 100%;
+    /* position: relative;
+    padding-top: 100%; */
 }
 
 @media (max-width: 28.75em) {
@@ -35,4 +35,17 @@
 .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
+}
+
+.project-title:hover{
+    text-decoration: none;
+}
+
+.code{
+    opacity: 0;
+}
+
+.project:hover .code{
+    transition-duration: 1s;
+    opacity: 1;
 }
