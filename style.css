@@ -1,5 +1,6 @@
 #projects {
     padding: 5%;
+    background: #45567d;
 }
 
 #projects-grid {
@@ -32,10 +33,10 @@
     object-fit: cover;
 }
 
-.project-title {
+/* .project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
-}
+} */
 
 .project-title:hover{
     text-decoration: none;
@@ -43,9 +44,49 @@
 
 .code{
     opacity: 0;
+    color: orangered;
+    font-weight: bolder;
 }
 
 .project:hover .code{
     transition-duration: 1s;
     opacity: 1;
 }
+
+#social-icons{
+    font-size: 3rem;
+}
+
+.sicon:hover{
+    transform: translateY(30px);
+    transition: 1s;
+    cursor: pointer;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    /* width: 50px; */
+    text-align: center;
+    text-decoration: none;
+  }
+
+.card-footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.topnav a {
+    float: right;
+    /* color: #f2f2f2; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .custom-bg{
+    background: #be3144;
+  }
+  .custom-color{
+    color: #be3144;
+  }
