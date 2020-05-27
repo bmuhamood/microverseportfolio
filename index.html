@@ -17,7 +17,7 @@
 <body>
 
     <!--nav bar-->
-    <nav class="navbar navbar-expand-lg navbar-light custom-bg topnav">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light custom-bg topnav">
         <div class="row col-10">
 
         </div>
@@ -29,13 +29,13 @@
             <div class="collapse navbar-collapse float-right" id="navbarText">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link text-light" href="#">About <span class="sr-only">(current)</span></a>
+                        <a class="nav-link text-light" href="#welcome-section">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Work</a>
+                        <a class="nav-link text-light" href="#projects">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Contact</a>
+                        <a class="nav-link text-light" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -43,68 +43,21 @@
     </nav>
 
     <!--jumbotron -->
-    <div class="jumbotron jumbotron-fluid bg-dark text-light">
-        <div class="container text-center">
-            <h1 class="display-4">Hey I am Mimic</h1>
-            <p class="lead custom-color">a web developer</p>
+    <section id="welcome-section" class="jumbotron jumbotron-fluid bg-dark text-light">
+        <div class="container vertical-center">
+            <!-- <div class="row">
+                <div class="col">
+                    <div class="mx-auto w-50 p-3 bg-dark text-white text-center">
+                        <span>use <code>.mx-auto</code> for display:block elements</span>
+                    </div>
+                </div>
+            </div> -->
+            <div class="align-middle text-center col-12">
+                <h1 class="display-4 ">Hey I am Mimic</h1>
+                <p class="lead custom-color">a web developer</p>
+            </div>
         </div>
-    </div>
-
-    <!-- <section id="projects">
-
-        <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project project-title">
-            <img class="project-image"
-                src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png"
-                alt="project" />
-            <p class="project-title">
-                <span class="code">&lt;</span>
-                Random Quote Machine
-                <span class="code">&#47;&gt;</span>
-            </p>
-        </a>
-        <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project project-title">
-            <img class="project-image"
-                src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/calc.png"
-                alt="project" />
-            <p class="project-title">
-                <span class="code">&lt;</span>
-                JavaScript Calculator
-                <span class="code">&#47;&gt;</span>
-            </p>
-        </a>
-        <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project project-title">
-            <img class="project-image"
-                src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg"
-                alt="project" />
-            <p class="project-title">
-                <span class="code">&lt;</span>
-                Map Data Across the Globe
-                <span class="code">&#47;&gt;</span>
-            </p>
-        </a>
-        <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank" class="project project-title">
-            <img class="project-image"
-                src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png"
-                alt="project" />
-            <p class="project-title">
-                <span class="code">&lt;</span>
-                Wikipedia Viewer
-                <span class="code">&#47;&gt;</span>
-            </p>
-        </a>
-        <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" class="project project-title">
-            <img class="project-image"
-                src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tic-tac-toe.png"
-                alt="project" />
-            <p class="project-title">
-                <span class="code">&lt;</span>
-                Tic Tac Toe Game
-                <span class="code">&#47;&gt;</span>
-            </p>
-        </a>
-    </div>
-
-</section> -->
+    </section>
 
     <section id="projects">
         <div class="mb-5">
@@ -117,7 +70,7 @@
                         class="card-img-top" alt="...">
                     <div class="card-footer bg-dark">
                         <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank"
-                            class="project project-title">
+                            class="project project-tile">
                             <h4 class="text-light"><span class="code">&lt;</span>Last updated 3 mins ago Tribute
                                 Page<span class="code">&#47;&gt;</span></h4>
                         </a>
@@ -128,7 +81,7 @@
                         class="card-img-top" alt="...">
                     <div class="card-footer bg-dark">
                         <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank"
-                            class="project project-title">
+                            class="project project-tile">
                             <h4 class="text-light"><span class="code">&lt;</span>Last updated 3 mins ago Tribute
                                 Page<span class="code">&#47;&gt;</span></h4>
                         </a>
@@ -139,7 +92,7 @@
                         class="card-img-top" alt="...">
                     <div class="card-footer bg-dark">
                         <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank"
-                            class="project project-title">
+                            class="project project-tile">
                             <h4 class="text-light"><span class="code">&lt;</span>Last updated 3 mins ago Tribute
                                 Page<span class="code">&#47;&gt;</span></h4>
                         </a>
@@ -157,7 +110,7 @@
                         class="card-img-top" alt="...">
                     <div class="card-footer bg-dark">
                         <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank"
-                            class="project project-title">
+                            class="project project-tile">
                             <h4 class="text-light"><span class="code">&lt;</span>Last updated 3 mins ago Tribute
                                 Page<span class="code">&#47;&gt;</span></h4>
                         </a>
@@ -168,7 +121,7 @@
                         class="card-img-top" alt="...">
                     <div class="card-footer bg-dark">
                         <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank"
-                            class="project project-title">
+                            class="project project-tile">
                             <h4 class="text-light"><span class="code">&lt;</span>Last updated 3 mins ago Tribute
                                 Page<span class="code">&#47;&gt;</span></h4>
                         </a>
@@ -179,7 +132,7 @@
                         class="card-img-top" alt="...">
                     <div class="card-footer bg-dark">
                         <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank"
-                            class="project project-title">
+                            class="project project-tile">
                             <h4 class="text-light"><span class="code">&lt;</span>Last updated 3 mins ago Tribute
                                 Page<span class="code">&#47;&gt;</span></h4>
                         </a>
@@ -195,12 +148,14 @@
 
     </section>
 
-    <div class="jumbotron">
+    <section id="contact" class="jumbotron">
         <h1 class="display-4 text-center">Let's work together</h1>
         <p class="lead text-center">HOw do you take your coffee</p>
         <div class="text-center" id="social-icons">
             <i class="fa fa-facebook sicon">Facebook</i>
-            <i class="fa fa-github sicon">Github</i>
+            <a href="https://github.com/bmuhamood" target="_blank" >
+                <i class="fa fa-github sicon">Github</i>
+            </a>
             <i class="fa fa-twitter sicon">Twitter</i>
             <i class="fa fa-google sicon">Send email</i>
             <i class="fa fa-phone sicon">Call</i>
@@ -210,7 +165,7 @@
             **This is just a fake portfolio. All the projects and contact details given are not real. © Created for freeCodeCamp
         </p>
 
-    </div>
+    </section>
 
 </body>
 
