@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
   div.example {
     font-size: 30px;
-  }
+      }
 }
 
 #projects {
@@ -123,7 +123,6 @@ a:visited {
 .vertical-center {
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
     min-height: 100%; /* These two lines are counted as one :-)       */
-
     display: flex;
     align-items: center;
   }
