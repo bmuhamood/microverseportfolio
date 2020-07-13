@@ -15,7 +15,7 @@ Built With
 
 - Bootstrap 
 
-Live Demo Link
+Live Demo Link - https://bmuhamood.github.io/microverseportfolio/ 
 
 Authors
 
@@ -29,15 +29,15 @@ Authors
 
 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+- Contributions, issues and feature requests are welcome!
 
-Feel free to check the issues page.
+- Feel free to check the issues page.
 
 Show your support
 
-Give a ⭐️ if you like this project!
+- Give a ⭐️ if you like this project!
 
 📝 License
 
-This project is MIT licensed.
+- This project is MIT licensed.
 
