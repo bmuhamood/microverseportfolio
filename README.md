@@ -8,18 +8,24 @@ This project is a responsive Single Page Portifolio site
 Additional description about the project and its features.
 
 Built With
-HTML
-CSS
-Bootstrap 
+
+- HTML
+
+- CSS
+
+- Bootstrap 
 
 Live Demo Link
 
 Authors
+
 👤 Bbosa Muhamood
 
-Github: @bmuhamood
-Twitter: @croixtechfirm
-Linkedin: linkedin
+- Github: @bmuhamood
+
+- Twitter: @croixtechfirm
+
+- Linkedin: linkedin
 
 🤝 Contributing
 
